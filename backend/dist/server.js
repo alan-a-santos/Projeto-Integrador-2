@@ -23,7 +23,7 @@ exports.server.register(cors_1.default, {
 exports.server.register(routes_1.routes);
 const start = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const port = Number(process.env.PORT) || 3000;
+        const port = Number(process.env.PORT) || 8080;
         yield exports.server.listen({ port, host: '0.0.0.0' });
         console.log('Servidor Conectado');
     }
