@@ -10,14 +10,15 @@ server.register(cors, {
 
 server.register(routes)
 
-const start = async() =>{
-    try{
-        await server.listen({ port: 3001, host: '0.0.0.0' });
-        console.log("Servidor Conectado")
-    } catch (err){
-        console.error("Erro ao iniciar o servidor:", err);
-        process.exit(1)
+const start = async (): Promise<void> => {
+    try {
+      const port = Number(process.env.PORT) || 3000;  
+      await server.listen({ port, host: '0.0.0.0' });
+      console.log('Servidor Conectado');
+    } catch (err) {
+      server.log.error('Erro ao iniciar o servidor:', err); 
+      process.exit(1);
     }
-}
+  };
 
 start()

@@ -23,11 +23,12 @@ exports.server.register(cors_1.default, {
 exports.server.register(routes_1.routes);
 const start = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        yield exports.server.listen({ port: 3001, host: '0.0.0.0' });
-        console.log("Servidor Conectado");
+        const port = Number(process.env.PORT) || 3000;
+        yield exports.server.listen({ port, host: '0.0.0.0' });
+        console.log('Servidor Conectado');
     }
     catch (err) {
-        console.error("Erro ao iniciar o servidor:", err);
+        exports.server.log.error('Erro ao iniciar o servidor:', err);
         process.exit(1);
     }
 });
