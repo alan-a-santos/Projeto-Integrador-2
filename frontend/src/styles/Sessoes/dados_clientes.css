@@ -1,0 +1,101 @@
+.labels{
+    font-weight: bold;
+    color: #2B4C5D;
+}
+.inputs{
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    text-align  : center;
+    height: 3vh;
+    font-size: 2vh;
+}
+.principal_pedidos1{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px #2B4C5D;
+    padding: 1vw;
+    width: 48vw;
+}
+.principal_cliente2{
+    margin-top: 1vw;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px #2B4C5D;
+    padding: 1vw;
+    width: 86vw;
+}
+
+/* configuração dos inputs */
+#input1{
+    width: 3vw;
+}
+#input2{
+    width: 25vw;
+    text-align: left;
+}
+#input3{
+    width: 7.5vw;
+}
+#input4{
+    width: 8vw;
+    padding-left: 10px;
+}
+#input5{
+    width: 6vw;
+}
+#input6{
+    width: 22vw;
+}
+#input7{
+    width: 4vw;
+}
+#input8{
+    width: 15vw;
+}
+#input9{
+    width: 15VW;
+}
+#input10{
+    width: 15VW;
+}
+/* configuração dos labels */
+#label2dc{
+    margin-left: 2.5vw;
+}
+#label3{
+    margin-left: 18.7vw;
+}
+#label4dc{
+    margin-left: 4.8vw;
+}
+#label6{
+    margin-left: 5vw;
+}
+#label7{
+    margin-left: 18.6vw;
+}
+#label8{
+    margin-left: 3.6vw;
+}
+#label9{
+    margin-left: 10vw;
+}
+#label10{
+    margin-left: 13vw;
+}
+#servico_pedido{
+    color: orange;
+    margin-left: 35%;
+    margin-top: 3vh;
+}
+#legenda{
+    color: orange;
+    margin-left: 0%;
+    font-size: 3vh;
+
+}

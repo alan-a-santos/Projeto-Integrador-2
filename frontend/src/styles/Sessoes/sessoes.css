@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 3vh;
+}
+.superiors{
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    font-size: 23vh;
+}
+#logo{
+    width: 90px;
+    height: 90px;
+}
+#titulo_superior{
+    text-align: center;
+    width: 90vw;
+    font-size: 4vh;
+    color: #C0732F;
+}
+.sessao_cliente{
+    background-color: darkblue;
+    text-align: center;
+    color: #F2F2F2;
+}
+.sessao_pedido{
+    background-color:orange;
+    text-align: center;
+    color: #F2F2F2;
+}
+.sessao_financas{
+    background-color: darkgreen;
+    text-align: center;
+    color: #F2F2F2;
+}
+.sessao_cardapio{
+    background-color: brown;
+    text-align: center;
+    color: #F2F2F2;
+}
+.sessao_home{
+    background-color: darkcyan;
+    text-align: center;
+    color: #F2F2F2;
+    font-size: 1.5vh;
+}
+.sessao_config{
+    background-color:dimgrey;
+    text-align: center;
+    color: #F2F2F2;
+    font-size: 1.5vh;
+}
+.geral{
+    display: flex;
+}
+.entrada{
+    display: block;
+    width: 24.vw;
+    margin-left: -28vw;
+    margin-top: 10vh;
+    background-color: transparent;
+
+    border: none;
+    border-radius: 10px;
+    height: 53.2vh;
+    text-align: center;
+    
+}
+#imgacesso{
+    margin-top: 10vh;
+    margin-left: 35%;
+    box-shadow: 10px 10px 10px 10px #2B4C5D;
+    border-radius: 8px;
+}
+.labels{
+    color:#2B4C5D;
+    font-weight: bold;
+}
+.inputs{
+    border-radius: 4px;
+    margin-right: 10px;
+    height: 3vh;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    text-align: center;
+    
+}
+#acesso{
+    height: 39vh;
+    cursor:pointer;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    width: 10vw;
+    border-radius: 360px;
+    font-size: 3vh;
+    margin-top: 7vh;
+    font-weight: bold;
+    margin-left: 18vw;
+    
+    color: #C0732F;
+}
+#label1{
+    height: 10vh;
+    color: #2B4C5D;
+    margin-right: 8px;
+}
+#label2{
+    height: 10vh;
+    color: #2B4C5D;
+    margin-right: 12px;
+    margin-left: 5px;
+}
+#div1{
+    margin-top: 3vh;
+}
+#div2{
+    margin-top: 3vh;
+}
+#senha {
+    width: 15vw;
+    height: 30px;
+}
+#usuario{
+    width: 15vw;
+    height: 30px;
+}

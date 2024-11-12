@@ -1,0 +1,126 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.labels{
+    color: #2B4C5D;
+    font-weight: bold;
+}
+.inputs{
+    border-radius: 4px;
+    margin-right: 10px;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    text-align: center;
+    height: 2.7vh;
+}
+.home{
+    margin-left: 10vw;
+    margin-top: 15vh;
+    
+}
+.home1{
+
+display: flex;
+margin-top: 6vh;
+}
+.home1_1_1{
+    width: 30vw;
+    height: 28vh;
+    text-align: center;
+    box-shadow: 3px 3px 0px 3px #2B4C5D;
+    margin-right: 10px;
+   border: none;
+   display:flex;
+
+}
+.home2_2_2{
+    text-align: center;
+    box-shadow: 3px 3px 0px 3px #2B4C5D;
+    width: 45vw;
+    height: 28vh;
+    border: none;
+    display:flex;
+}
+#mes{
+    font-weight: bold;
+    margin-left: 65vw;
+    
+    width: 12vw;
+    font-size: 2.5vh;
+    height: 3vh;
+    border: none;
+    box-shadow: 3px 3px 0px 3px #2B4C5D;
+}
+.home3_3_3{
+    height: 40vh;
+    width: 80vw;
+    margin-top: 2vh;
+    border: none;
+    box-shadow: 3px 3px 0px 3px #2B4C5D;
+}
+#lativos{
+    font-size: 4vh;
+}
+#ativos{
+    font-size: 10vh;
+    padding-top: 20px;
+    margin-left: 3vw;
+
+}
+#ltotal{
+    font-size: 4vh;
+}
+#total{
+    font-size: 10vh;
+    margin-left: 4vw;
+}
+#lmarmita{
+    font-size: 4vh;
+}
+#marmita{
+    font-size: 10vh;
+}
+#lfit{
+    font-size: 4vh;
+}
+#fit{
+    font-size: 10vh;
+}
+#leg1{
+    text-align: center;
+    font-size: 4vh;
+}
+#leg1_1{
+    text-align: center;
+    font-size: 3.5vh;
+    padding-top: 10px;
+    color: #C0732F;
+    font-weight: bold;
+    margin-left: 2.5vw;
+   margin-left: 2vw;
+}
+#leg2{
+    text-align: end;
+    font-size: 2.5vh;
+}
+#leg3{
+    text-align: end;
+    font-size: 2.5vh;
+}
+.div1{
+    display: grid;
+}
+.div2{
+    display: grid;
+}
+.field1{
+    margin-top: 4vh;
+    border: none;
+    margin-left: 1vw;
+}
+.field2{
+    margin-top: 4vh;
+    border: none;
+    margin-left: 5vw;
+}

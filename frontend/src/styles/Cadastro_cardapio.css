@@ -1,0 +1,92 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.labels{
+    font-weight: bold;
+    color: #2B4C5D;
+}
+.inputs{
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    text-align  : center;
+    height: 3vh;
+    font-size: 2vh;
+}
+.principal_cardapio{
+
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+  
+    padding: 1vw;
+    width: 68vw;
+}
+.principal_cliente2{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px #2B4C5D;
+    padding: 1vw;
+}
+.principal_cliente3{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px #2B4C5D;
+    padding: 1vw;
+}
+.labels1{
+    margin-top: 0vh;
+}
+#legenda{
+    color: #C0732F;
+    font-size: 20px;
+}
+#servico_cardapio{
+    color: brown;
+    margin-top:  5vh;
+    margin-left: 3vw;
+}
+#botao_cad1{
+    width:  7.5vw;
+    height: 3.5vh;
+    border-radius: 6px;
+    border: none;
+    background-color: #2B4C5D;
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+#input0{
+    width: 7vw;
+}
+#input1{
+    width: 3vw;
+}
+#input2{
+    text-align: left;
+    padding-left: 10px;
+    width: 12vw;
+}
+#input3{
+    width: 35vw;
+    text-align: left;
+    padding-left: 1vw;
+}
+#label21{
+    margin-left: 3.2vw;
+}
+#label3{
+    margin-left: 8.5vw;
+}
+.success-message{
+    margin-left: 3%;
+    margin-top: 10vh;
+    font-size: 6vh;
+    color: #C0732F;
+}

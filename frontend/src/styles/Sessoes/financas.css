@@ -1,0 +1,72 @@
+.labels{
+    font-weight: bold;
+    color: #2B4C5D;
+}
+.inputs{
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    text-align  : center;
+    height: 3vh;
+    font-size: 2vh;
+}
+.clientefin{
+    display: block;
+}
+.div1{
+    margin-top: 5vh;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+}
+#nomes{
+    margin-left: 4vw;
+    margin-top: 5vh;
+}
+
+#listagem{
+    margin-left: 4vw;
+    height: 3vh;
+    width: 25vw;
+    text-align: left;
+    padding-left: 1vw;
+}
+#lista-pedidos{
+    height: 35vh;
+    width: 25vw;
+    margin-left: 4vw;
+}
+#pendentes {
+    margin-top: 3vh;
+    margin-left: 4vw;
+}
+#devedor{
+    margin-left: 4vw;
+    margin-top: 1vh;
+}
+#total{
+    width: 8vw;
+    margin-left: 21vw;
+    margin-top: -2.5vh;
+    color: red;
+    font-weight: bold;
+}
+#pi{
+    margin-left: 35vw;
+    margin-top: -35vh;
+    width: 15vw;
+    height: 6vh;
+    cursor: pointer;
+}
+#pt{
+    margin-left: -15.5vw;
+    margin-top: -20vh;
+    width: 15vw;
+    height: 6vh;
+    cursor: pointer;
+}
+.s1{
+    display: flex;
+}

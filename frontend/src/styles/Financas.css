@@ -1,0 +1,302 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.labels{
+    color: #2B4C5D;
+    font-weight: bold;
+}
+.principal_contas1{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px #2B4C5D;
+    padding: 1vw;
+    width: 78vw;
+}
+.principal_contas2{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+    
+    padding: 1vw;
+
+}
+.detalhes{
+
+margin-bottom: 3vh;
+
+}
+#legenda{
+    color: #C0732F;
+    font-size: 20px;
+}
+#servico_cliente{
+    color: green;
+    margin-top: 2.5vw;
+    margin-left: 3vw;
+    margin-bottom: -2vh;
+}
+.inputs{
+    border-radius: 4px;
+    margin-right: 10px;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    text-align: center;
+    height: 3vh;
+    font-size: 2vh;
+}
+#input1{
+    width: 2vw;
+}
+
+#input2{
+    width: 30vw;
+    text-align: left;
+   
+}
+#input3{
+    height: 23px;
+}
+#input4{
+    height: 3vh;
+}
+#input4-1{
+    width: 12vw;
+}
+#input5{
+    width: 3vw;
+}
+#input6{
+    width: 30vw;
+}
+#input7{
+    width: 5vw;
+}
+#input8{
+    width: 6vw;
+}
+#input9{
+    width: 2vw;
+}
+#input10{
+    width: 20vw;
+}
+#label2{
+    margin-left: 8.3vw;
+}
+#label3{
+    margin-left: 7vw;
+}
+#label4{
+    margin-left: 28.2vw;
+}
+#label4-1{
+    margin-left: 7vw;
+}
+#label6{
+    margin-left: 1.9vw;
+}
+#label7{
+    margin-left: 24.6VW;
+}
+#label8{
+    margin-left: 2.8vw;
+}
+#label9{
+    margin-left: -0.6vw;
+    margin-right: 0.2vw;
+}
+#label10{
+    margin-left: 7.8vw;
+}
+#btncredor{
+    height: 3.5vh;
+    color: #f2f2f2;
+    background-color: #2B4C5D;
+    border-radius: 5px;
+    width: 10vw;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+#dnome{    
+    width: 30vw;
+    height: 3vh;
+}
+#input5{
+    width: 35.2vw;
+    text-align: left;
+ 
+}
+#btnpagamento{
+    height: 3.5vh;
+    cursor:pointer;
+    color: #f2f2f2;
+    background-color: #2B4C5D;
+    border-radius: 5px;
+    width: 20vw;
+    font-size: 3vh;
+ 
+}
+
+/* --------------------------------------------
+Recebimento
+-------------------------------------------- */
+#ccc{
+    margin-top: -4vw;
+    display: block;
+}
+.inputs2{
+    display: flex;
+
+}
+#input1r{
+    width: 6vw;
+    
+}
+#input4r{
+    width: 26vw;
+    
+}
+#input5r{
+    width: 36vw;
+    height: 24vh;
+}
+#input6r{
+    margin-left: 2vw;
+
+    margin-top: 8.5vh;
+}
+#input7r{
+    height: 3vh;
+}
+
+#input8r{
+
+    width: 10vw;
+}
+#label2r{
+    margin-left: 2.8vw;
+}
+#label3r{
+    margin-left: 6.5vw;
+}
+#label4r{
+    margin-left: 5.6vw;
+}
+#label6r{
+   margin-left: 30.3vw;
+}
+#label7r{
+    margin-left: 7.5vw;
+}
+#label8r{
+    margin-left: 8.5vw;
+}
+#btnrecebe{
+    height: 5vh;
+    margin-top: 20vh;
+    margin-left: -18vw;
+    color: #f2f2f2;
+    background-color: #2B4C5D;
+    border-radius: 5px;
+    width: 20vw;
+    font-size: 3vh;
+}
+
+/* -----------------------------------------
+pagamento
+----------------------------------------- */
+#input1p{
+    width: 12vw;
+   
+}
+#input4p{
+    width: 26vw;
+   
+}
+#input7p{
+    height: 3vh;
+}
+#input8p{
+    height: 3vh;
+}
+#t1{
+    margin-left: 2.2vw;
+    margin-top: 05vh;
+    display: flexbox;
+}
+#input9p{
+    
+    width: 12vw;
+}
+#label2p{
+    margin-left: 8.8vw;
+}
+#label3p{
+    margin-left: 6vw;
+}
+#label4p{
+    margin-left: 5.6vw;
+}
+#label6p{
+    margin-left: 27.7vw;
+}
+#label6p-1{
+    margin-left: 7.6vw;
+}
+#label6p-2{
+    margin-left: 4.2vw;
+}
+#label7p{
+    margin-left: 4.2vw;
+}
+#btnpaga{
+    height: 5vh;
+    margin-top: 20vh;
+    margin-left: -17vw;
+    color: #f2f2f2;
+    background-color: #2B4C5D;
+    border-radius: 5px;
+    width: 20vw;
+    font-size: 3vh;
+}
+
+/* _______________________________________________________
+
+Consultas_   _______________________________________________________ */
+
+#label2c{
+    margin-left:6.2vw;
+}
+#label3c{
+    margin-left: 6.5vw;
+}
+#label4c{
+    margin-left: 5.8vw;
+  
+}
+#label7c{
+    margin-left: 7.7vw;
+}
+#label8c{
+    margin-left: 4vw;
+}
+#label9c{
+    margin-left: 4.3vw;
+}
+#input4c{
+    width: 30vw;
+    height: 3vh;
+}
+#input5c{
+    width: 30vw;
+    height: 15vh;
+}
+
+/* .principal_contas2{
+    display: box;
+} */

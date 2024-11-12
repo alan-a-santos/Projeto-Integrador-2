@@ -1,0 +1,86 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.icones{
+    width: 2.4vw;
+    height: 5vh;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    margin-right: 0vw;
+    cursor: pointer;
+
+
+}
+.label_icones{
+    color: #2B4C5D;
+    font-weight: bold;
+    margin-right: 5.3vw;
+    margin-left: 8px;
+    font-size: 1.9vh; 
+    margin-top: -3vh;
+}
+.lateral_principal{
+    display: block;
+    flex-direction: row;
+    
+}
+.principal{
+    display:block  ;
+   
+    padding-left: 1vw;
+    width: 1900px;
+    border: none;
+    align-items: center;
+
+}
+.lateral_cliente{
+    display: flex;
+    padding-left: 1vw;
+    width: 100vw;
+    border: none;
+    
+    
+}
+.lateral_pedidos{
+    display: flex;
+    padding-left: 1vw;
+    width: 1900px;
+    border: none;
+    align-items: center;
+}
+.lateral_cardapio{
+    display: flex;
+    padding-left: 1vw;
+    width: 1900px;
+    border: none;
+    align-items: center;
+}
+.lateral_financas{
+    display: flex;
+    padding-left: 1vw;
+    width: 1900px;
+    border: none;
+    align-items: center;
+}
+
+#img6{
+   margin-left: 30vw;
+
+}
+#img5c{
+    margin-left: 48vw;
+}
+
+#img5p{
+    margin-left: 48vw;
+}
+#img5ca{
+    margin-left: 70vw;
+}
+#img5f{
+    margin-left: 80vw;
+}
+#img5config{
+    margin-left: 60vw;
+}

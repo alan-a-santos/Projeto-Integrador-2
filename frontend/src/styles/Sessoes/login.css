@@ -1,0 +1,36 @@
+*{
+    background-color: #f2f2f2;
+    align-items: center;
+
+}
+.inputs{
+    border-radius: 5px;
+    height: 4vh;
+    margin-left: 2.5vw;
+    width: 11vw;
+    font-size: 25px;
+    border: none;
+}
+#acesso{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: -11vw;
+    margin-top: -10vh;
+}
+#logo{
+    margin-left: 35%;
+    height: 50vh;
+    width: 25vw;
+    margin-top:5vh;
+}
+#btentrar{
+    font-size: 32px;
+    border-radius: 5px;
+    width: 20vw;
+    margin-left: 11.5vw;
+    font-weight: bold;
+    margin-top: 5px;
+    background-color: #2B4C5D;
+    color: #f2f2f2;
+}

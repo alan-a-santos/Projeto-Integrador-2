@@ -1,0 +1,359 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.labels{
+    color: #2B4C5D;
+    font-weight: bold;
+}
+#servico_pedido{
+    margin-left: 30%;
+    color: orange;
+    margin-top: 2vh;
+}
+
+
+.dados_pedidos{
+    margin-top: 1.5vw;
+    margin-left: -10.2vw;
+    border: none;
+    border-radius: 5px;
+    /* box-shadow: 0px 5px #2B4C5D; */
+    padding: 1vw;
+    width: 68vw;
+}
+/* .principal_cliente2{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px #2B4C5D;
+    padding: 1vw;
+} */
+.principal_cliente2h{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+
+    padding: 1vw;
+}
+#legenda{
+    color: #C0732F;
+    font-size: 20px;
+}
+
+
+#input1{
+    width: 2.5vw;
+}
+
+#input2{
+    width: 26.2vw;
+    text-align: left;
+    height: 3.3vh;
+}
+#input2-0{
+    width: 25.7vw;
+    text-align: left;
+}
+#input3{
+    width: 6.9vw;
+}
+#input4{
+    width: 6.7vw;
+}
+#input3h{
+    width: 6.9vw;
+    margin-left: 0.7vh;
+}
+#input4h{
+    width: 6.7vw;
+}
+#input5{
+    width: 9.5vw;
+}
+#label2{
+    margin-left: 2.9vw;
+}
+#label2h{
+    margin-left: 5.6vw;
+}
+#label3{
+    margin-left: 20vw;
+}
+#label3h{
+    margin-left: 20.5vw;
+}
+#label4{
+    margin-left: 3vw;
+}
+#label4h{
+    margin-left: 3.5vw;
+}
+#label5{
+    margin-left: 4.7vw;
+}
+#label6{
+    margin-left: 6.3vw;
+}
+#input11{
+    width: 5vw;
+}
+#input22{
+    width: 24vw;
+    text-align: left;
+}
+#input33{
+    width: 3vw;
+}
+#input44{
+    width: 15vw;
+}
+#input55{
+    width: 15vw;
+}
+#input66{
+    width: 15vw;
+}
+#label22{
+    margin-left: 4.5vw;
+}
+#label33{
+    margin-left: 21.3vw;
+}
+#label44{
+    margin-left: 3vw;
+    text-align: left;
+}
+#label55{
+    margin-left: 10.7vw;
+    text-align: left;
+}
+#label66{
+    margin-left: 13.7vw;
+    text-align: left;
+}
+#obs{
+    color: #C0732F;
+    font-size: 20px;
+    margin-top: 5vh;
+    margin-left: 4vw;
+    margin-bottom: 1vh;
+}
+#observa{
+    margin-top: 1vh;
+    margin-left: 0vw;
+    width: 25vw;
+    height: 9vh;
+    box-shadow: 1px 1px #2B4C5D;
+    text-align: left;
+}
+#observa1{
+    margin-top: 0vh;
+    margin-left: 0vw;
+    width: 15vw;
+    height: 6.5vh;
+    box-shadow: 1px 1px #2B4C5D;
+    text-align: left;
+    font-size: 5.5vh;
+    text-align: center;
+    font-weight: bold;
+    color: #C0732F;
+}
+#botao_cad1{
+    width: 15vw;
+    height: 4vh;
+    border-radius: 6px;
+    border: none;
+    background-color: #2B4C5D;
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-top: 0vh;
+    margin-left: 79.5vw;
+    cursor: pointer;
+}
+#botao_cad2{
+    width: 15vw;
+    height: 4vh;
+    border-radius: 6px;
+    border: none;
+    background-color: #2B4C5D;
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-top: 2vh;
+    margin-left: 72.5vw;
+    cursor: pointer;
+}
+#botao_cad11{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 6px;
+    border: none;
+    background-color: #2B4C5D;
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-top: -3.4vh;
+    margin-left: 16vw;
+    cursor: pointer;
+}
+#botao_cad12{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 6px;
+    border: none;
+    background-color: #2B4C5D;
+    color: #f2f2f2;
+    font-size: 20px;
+
+    margin-left: 16vw;
+    cursor: pointer;
+}
+#categoria1{
+    margin-left: 4vw;
+    width: 25vw;
+    height: 20vh;
+    
+}
+#categoria2{
+    width: 25vw;
+    height: 20vh;
+   
+   
+}
+.fim_pedido{
+    display: flex;
+    flex-direction:column;
+    margin-left: 56vw;
+    margin-top: -21vh;
+}
+#cardapio{
+    margin-left: 4vw;
+}
+#pedido{
+    margin-left: 19vw;
+}
+#obs_pedido{
+    margin-left: 19.3vw;
+}
+#total{
+    margin-top: 1vh;
+}
+#botao_cad1{
+    margin-left: 72vw;
+    margin-top: -25vh;
+}
+.paineis{
+    display: flex;
+ 
+}
+.preparo{
+    margin-left: 4vw;
+    margin-top: 2vh;
+    width: 35vw;
+    height: 40vh;
+    margin-bottom: 2vh;
+}
+.pronto{
+    margin-left: 4vw;
+    width: 35vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh; 
+}
+#painelobs{
+    margin-top: 3.2vh;
+    margin-left: 1vw;
+    width: 15vw;
+}
+#pedidoobs{
+    margin-left: 4vw;
+    margin-top: 10vh;
+}
+#pedidoobserva{
+    margin-left: 4vw;
+    width: 36vw;
+    height: 15vh;
+}
+#servico{
+    margin-left: 0.5vw;
+    width: 12vw;
+    margin-top: 2.5vh;
+    font-weight: bold;
+    box-shadow: 2px 2px;
+    height: 4vh;
+    font-size: 4vh;
+    color: darkblue;
+    border-top: none;
+    border-left: none;
+}
+#segmento{
+    margin-left: 4vw;
+    color: #C0732F;
+}
+#p1{
+    display: flex;
+    align-items: center;
+}
+#prazo{
+    flex-direction: row;
+    margin-left: 18vw;
+    margin-top: -9vh;
+}
+#botao_pesqh{
+    width: 10vw;
+
+    border-radius: 6px;
+    border: none;
+    background-color: #2B4C5D;
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-top: 1vh;
+    margin-left: 3vw;
+    cursor: pointer;
+}
+#pesquisa{
+        width: 8vw;
+        margin-top: -3vh;
+}
+#cardapioh{
+    margin-left: vw;
+}
+#categoria1h{
+    margin-top: 0vh;  
+    margin-left: 0vw;
+    width: 25vw;
+}
+#categoria5{
+    margin-top: 0vh;  
+    margin-left: 0vw;
+    width: 25vw;
+    height: 15vh;
+}
+.fim_pedidoh{
+    display: flex;
+    flex-direction:column;
+    margin-left: 28vw;
+    margin-top: -16vh;
+}
+#prazoh{
+    flex-direction: row;
+    margin-left: 18vw;
+    margin-top: -5vh;
+}
+#observa1h{
+    margin-top: 0vh;
+    margin-left: 0vw;
+    width: 15vw;
+    height: 6.5vh;
+    box-shadow: 1px 1px #2B4C5D;
+    text-align: left;
+    font-size: 5.5vh;
+    text-align: center;
+    font-weight: bold;
+    color: #C0732F;
+}
+#obs_pedidoh{
+    margin-left: 24.8vw;
+}
+#totalh{
+    margin-top: 1vh;
+}

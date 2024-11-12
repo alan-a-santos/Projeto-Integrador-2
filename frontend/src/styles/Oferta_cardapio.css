@@ -1,0 +1,124 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.labels{
+    font-weight: bold;
+    color: #2B4C5D;
+}
+.inputs{
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    text-align  : center;
+    height: 3vh;
+    font-size: 2vh;
+}
+.principal_cardapio{
+
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+  
+    padding: 1vw;
+    width: 68vw;
+}
+#servico_cardapio{
+    color: brown;
+    margin-top: 1.5vw;
+    margin-left: 3vw;
+}
+#input1{
+    text-align: left;
+    padding-left: 10px;
+    width: 7vw;
+}
+
+#input2{
+    text-align: left;
+    padding-left: 10px;
+    width: 12vw;
+}
+#input3{
+    width: 27.5vw;
+    text-align: left;
+}
+#botao_cad1{
+    width:  7.5vw;
+    height: 3.5vh;
+    border-radius: 6px;
+    border: none;
+    background-color: #2B4C5D;
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+#botao_cad2{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 6px;
+    border: none;
+    background-color: #2B4C5D;
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-left: 1vw;
+    cursor: pointer;
+    margin-top: -2vh;
+    margin-left: 35vw;
+}
+#servico{
+    margin-left: 0.5vw;
+    width: 12vw;
+    margin-top: 2.5vh;
+    font-weight: bold;
+    box-shadow: 2px 2px;
+    font-size: 2vh;
+    border-top: none;
+    border-left: none;
+}
+#novo_prato{
+    margin-left: 4vw;
+    width: 40vw;
+
+    height: 25vh;
+}
+#novo{
+    margin-left: 4vw;
+  
+}
+#nome{
+    margin-left: 4vw;
+   width: 30vw;
+}
+#label4{
+    margin-left: 4vw;
+}
+#nome_cardapio{
+    display: block;
+    margin-top: 2vh;
+
+}
+#label5{
+    margin-left: 4vw;
+}
+#valor{
+    margin-left: 4vw;
+}
+.info_pedido{
+    margin-left: 5vw;
+    display: flex;
+}
+#cardapio1{
+    margin-left: 15vw;
+    height: 10vh;
+}
+#cardapio2{
+    margin-left: 5vw;
+}
+.success-message{
+    margin-left: 3%;
+    margin-top: 10vh;
+    font-size: 6vh;
+    color: #C0732F;
+}

@@ -1,0 +1,405 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.labels{
+    font-weight: bold;
+    color: #2B4C5D;
+}
+.inputs{
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    text-align  : center;
+    height: 9vh;
+    font-size: 2vh;
+}
+.principal_cliente1{
+    margin-top: 0.5vw;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px #2B4C5D;
+    padding: 1vw;
+    width: 90vw;
+}
+.principal_cliente2{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px #2B4C5D;
+    padding: 1vw;
+    width: 90vw;
+}
+#legenda{
+    color: #C0732F;
+    font-size: 20px;
+}
+#servico_cliente{
+    color: darkblue;
+    margin-top: 2vw;
+    margin-left: 30%;
+}
+#obs{
+    color: #C0732F;
+    font-size: 20px;
+    margin-top: 5vh;
+    margin-left: 4vw;
+}
+#observa{
+    margin-top: 1vh;
+    margin-left: 4vw;
+    width: 85vw;
+    height: 20vh;
+    box-shadow: 1px 1px #2B4C5D;
+    text-align: left;
+}
+#botao_cad1{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 6px;
+    border: none;
+    background-color: #2B4C5D;
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-top: 1vh;
+    margin-left: 79vw;
+    cursor: pointer;
+}
+
+#input1{
+    width: 2.5vw;
+}
+#input2000{
+    width: 26.2vw;
+    text-align: left;
+ 
+}
+#input3{
+    width: 7.9vw;
+}
+#input4{
+    width: 7.7vw;
+}
+
+#input5{
+    width:10vw;
+}
+#input7{
+    width: 5vw;
+}
+#input8{
+    width: 24vw;
+    text-align: left;
+}
+#input9{
+    width: 3vw;
+}
+#input10{
+    width: 15vw;
+}
+#input11{
+    width: 15vw;
+}
+#input12{
+    width: 16vw;
+}
+#label2000{
+    margin-left: 2vw;
+}
+#label3{
+    margin-left: 20vw;
+}
+#label4{
+    margin-left: 3.5vw;
+}
+#label4_1{
+    margin-left: 5vw;
+}
+#label5{
+    margin-left: 7vw;
+}
+#label5_1{
+    margin-left: 6.5vw;
+}
+#label6{
+    margin-left: 10.3vw;
+}
+#label7{
+    margin-left: 0vw;
+}
+#label8{
+    margin-left: 4vw;
+    text-align: left;
+}
+#label9{
+    margin-left: 20.7vw;
+}
+#label10{
+    margin-left: 2.5vw;
+    text-align: left;
+}
+#label11{
+    margin-left: 10vw;
+    text-align: left;
+}
+#label12{
+    margin-left: 13vw;
+}
+
+/* ---------------------------------------------------------------
+    Consulta de Clientes
+--------------------------------------------------------------- */
+#input101{
+    width: 2.5vw;
+}
+#input102{
+    width: 26.2vw;
+    text-align: left;
+    height: 3vh;
+}
+#input103{
+    width: 6.9vw;
+}
+#input104{
+    width: 7.7vw;
+}
+#input104_1{
+    width: 7.7vw;
+}
+#input105{
+    width: 9.5vw;
+}
+#input106{
+    width: 6.9vw;
+}
+#input107{
+    width: 6vw;
+}
+#input108{
+    width: 24vw;
+    text-align: left;
+}
+#input109{
+    width: 3vw;
+}
+#input110{
+    width: 15vw;
+}
+#input111{
+    width: 15vw;
+}
+#input112{
+    width: 15vw;
+}
+
+#label102{
+    margin-left: 2vw;
+}
+#label103{
+    margin-left: 10vw;
+}
+#label104{
+    margin-left: 5.7ch;
+}
+#label104_1{
+    margin-left: 4.8vw;
+}
+#label105{
+    margin-left: 6.5vw;
+}
+#label105_1{
+    margin-left: 6vw;
+}
+#label106{
+    margin-left: 10.2vw;
+}
+#label107{
+    margin-left: 0vw;
+}
+#label108{
+    margin-left: 4.9vw;
+    text-align: left;
+}
+#label109{
+    margin-left: 20.8vw;
+}
+#label110{
+    margin-left: 2.5vw;
+    text-align: left;
+}
+#label111{
+    margin-left: 10vw;
+    text-align: left;
+}
+#label112{
+    margin-left: 13vw;
+}
+/* ---------------------------------------------------------------
+Atualizacao de Clientes
+--------------------------------------------------------------- */
+#input201{
+    width: 2.5vw;
+}
+#input202{
+    width: 26.2vw;
+    text-align: left;
+    height: 3.5vh;
+}
+#input203{
+    width: 6.9vw;
+}
+#input204{
+    width: 6.7vw;
+}
+#input205{
+    width: 9.5vw;
+}
+
+#input207{
+    width: 5vw;
+}
+#input208{
+    width: 24vw;
+    text-align: left;
+}
+#input209{
+    width: 3vw;
+}
+#input210{
+    width: 15vw;
+}
+#input211{
+    width: 15vw;
+}
+#input212{
+    width: 15vw;
+}
+#label201{
+ margin-right: 0.25vw;
+}
+#label202{
+    margin-left: 2vw;
+    margin-right: 0.21vw;
+}
+#label203{
+    margin-left: 20vw;
+}
+#label204{
+    margin-left: 3vw;
+}
+#label205{
+    margin-left: 4.7vw;
+}
+#label206{
+    margin-left: 6.3vw;
+}
+#label207{
+    margin-left: 0vw;
+}
+#label208{
+    margin-left: 4.5vw;
+    text-align: left;
+}
+#label209{
+    margin-left: 21.3vw;
+}
+#label210{
+    margin-left: 3vw;
+    text-align: left;
+}
+#label211{
+    margin-left: 10.7vw;
+    text-align: left;
+}
+#label212{
+    margin-left: 13.5vw;
+}
+/* ---------------------------------------------------------------
+Exclusão de Clientes
+--------------------------------------------------------------- */
+#input301{
+    width: 2.5vw;
+}
+#input302{
+    width: 26.2vw;
+    text-align: left;
+    height: 3.5vh;
+}
+#input303{
+    width: 6.9vw;
+}
+#input304{
+    width: 6.7vw;
+}
+#input305{
+    width: 9.5vw;
+}
+
+#input307{
+    width: 5vw;
+}
+#input308{
+    width: 24vw;
+    text-align: left;
+}
+#input309{
+    width: 3vw;
+}
+#input310{
+    width: 15vw;
+}
+#input311{
+    width: 15vw;
+}
+#input312{
+    width: 15vw;
+}
+
+#label302{
+    margin-left: 2.9vw;
+}
+#label303{
+    margin-left: 20vw;
+}
+#label304{
+    margin-left: 3vw;
+}
+#label305{
+    margin-left: 4.7vw;
+}
+#label306{
+    margin-left: 6.3vw;
+}
+#label307{
+    margin-left: 0vw;
+}
+#label308{
+    margin-left: 4.5vw;
+    text-align: left;
+}
+#label309{
+    margin-left: 21.3vw;
+}
+#label310{
+    margin-left: 3vw;
+    text-align: left;
+}
+#label311{
+    margin-left: 10.7vw;
+    text-align: left;
+}
+#label312{
+    margin-left: 13.5vw;
+ 
+}
+.success-message{
+    margin-left: 3%;
+    margin-top: -5vh;
+    font-size: 6vh;
+    color: #C0732F;
+}
+#msg{
+    display: flex;
+}

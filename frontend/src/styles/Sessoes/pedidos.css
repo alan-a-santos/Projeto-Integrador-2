@@ -1,0 +1,170 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.labels{
+    color: #2B4C5D;
+    font-weight: bold;
+}
+
+.dados_pedidos{
+    display: flex;
+  
+    margin-top: 0vw;
+    margin-left: 3.5vw;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px #2B4C5D;
+    padding: 1vw;
+    width: 87vw;
+}
+.disponivel{
+    width: 25vw;
+    border: #2B4C5D;
+}
+#categoria1{
+    background-color: transparent;
+    width: 25vw;
+    height: 25vh;
+    text-align: left;
+    padding: 2vh 2vh  ;
+    line-height: 1.5    ;
+}
+#bp{
+    margin-top: 2vh;
+    height: 3vh;
+    width: 6vw;
+    font-size: 2vh;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#detalhes{
+    margin-left: -31.5vw;
+    height: 21vh;
+    width: 25vw;
+    margin-top: 6vh;
+    text-align: left;
+}
+#bm{
+   
+    height: 4vh;
+    width: 6vw;
+    font-size: 2vh;
+    
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#categoria2{
+    width: 25vw;
+    height: 3vh;   
+    margin-top: 2vh;
+    margin-left: -8vw;
+    text-align: left;
+}
+.pedido{
+    display: flex;
+}
+.cat2{
+    display: block;
+    flex-direction: column;
+}
+.fim_pedido{
+    display: flex;
+    flex-direction:column;
+    margin-left: 56vw;
+    margin-top: -21vh;
+}
+#observa{
+    width: 25vw;
+    height: 12vh;
+    margin-top: 2vh;
+    margin-left: -10vw;
+    text-align: left;
+    color: darkblue;
+}
+#valor1{
+    margin-top: 21vh;
+    margin-left: -14.8vw;
+    
+    width: 13vw;
+    height: 6vh;
+    font-size: 6vh;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    background-color: transparent;
+}
+#prazo{
+    flex-direction: row;
+    margin-left: 16.8vw;
+    margin-top: -5vh;
+    width: 10vw;;
+}
+#botao_cad1{
+    margin-left: 1vw;
+    margin-top: 21.6vh;
+    height: 5vh;
+    background-color: #2B4C5D;
+    font-size: 30px;
+    width: 10vw;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+#botao_cad2{
+    margin-left: -11vw;
+    margin-top: 21.6vh;
+    height: 5vh;
+    background-color: #2B4C5D;
+    font-size: 30px;
+    width: 10vw;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+#pedir{
+width: 8vw;
+ margin-left: 1vw;
+}
+#pedido{
+    margin-left: 24.3vw;
+}
+#obs_pedido{
+    margin-left: -5vw;
+    width: 10vw;
+ 
+}
+#total{
+    margin-top: 17.5vh;
+    width: 12vw;
+    font-size: 3vh;
+    margin-left: 0.5vw;
+    margin-right: 2.5vw;
+}
+#servico_pedido{
+    color: orange;
+    margin-left: 35%;
+    margin-top: 5vh;
+}
+#entrega{
+    margin-top: 20.5vh;
+    margin-left: -10vw;
+}
+#dtentrega{
+    width: 10vw;
+    margin-top: 18.5vh;
+    margin-left: -20vw;
+}
+#quant{
+    margin-left: -13.2vw;
+    margin-top: 9vh;
+}
+#quanti{
+    margin-left: -4.7vw;
+    margin-top: 11vh;
+    width: 5vw;
+    margin-right: 8.5vw;
+
+}
