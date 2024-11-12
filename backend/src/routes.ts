@@ -15,3 +15,7 @@ export const routes = async() => {
     server.register(pedidos_routes)
     server.register(servicos_diversos_routes)
 }
+
+server.get('/health', async (request, reply) => {
+    reply.send({ status: 'ok' });
+  });
