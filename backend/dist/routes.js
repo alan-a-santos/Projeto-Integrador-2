@@ -26,3 +26,6 @@ const routes = () => __awaiter(void 0, void 0, void 0, function* () {
     server_1.server.register(_servicos_diversos_routes_1.servicos_diversos_routes);
 });
 exports.routes = routes;
+server_1.server.get('/health', (request, reply) => __awaiter(void 0, void 0, void 0, function* () {
+    reply.send({ status: 'ok' });
+}));
