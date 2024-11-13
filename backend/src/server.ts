@@ -12,7 +12,7 @@ server.register(routes)
 
 const start = async (): Promise<void> => {
     try {
-      const port = Number(process.env.port) || 80;  
+      const port = Number(process.env.port) || 8181;  
       await server.listen({ port, host: '0.0.0.0' });
       console.log('Servidor Conectado');
     } catch (err) {
