@@ -11,7 +11,10 @@ const config = {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME
+    database: process.env.DB_NAME,
+    ssl: {
+        rejectUnauthorized: true
+    }
 };
 if (!config.host || !config.user || !config.password || !config.database) {
     throw new Error("Configuração do banco de dados está incompleta. Verifique as variáveis de ambiente.");

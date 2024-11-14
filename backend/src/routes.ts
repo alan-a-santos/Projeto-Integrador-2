@@ -16,6 +16,3 @@ export const routes = async() => {
     server.register(servicos_diversos_routes)
 }
 
-server.get('/health', async (request, reply) => {
-    reply.send({ status: 'ok' });
-  });
