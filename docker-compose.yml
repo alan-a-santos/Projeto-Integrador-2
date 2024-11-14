@@ -5,10 +5,10 @@ services:
       context: .
       dockerfile: backend/Dockerfile
     ports:
-      - "8080:8080"
+      - "80:80"
     environment:
       - NODE_ENV=production
-      - PORT=8080
+      - PORT=80
     env_file: 
      - backend/.env  # Mova esta linha para o nível do serviço
     depends_on:
