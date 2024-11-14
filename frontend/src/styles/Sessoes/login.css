@@ -9,8 +9,12 @@
     margin-left: 2.5vw;
     width: 11vw;
     font-size: 25px;
-    border: none;
-}
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #C0732F;
+    
+}  
 #acesso{
     display: flex;
     flex-direction: column;
@@ -32,5 +36,6 @@
     font-weight: bold;
     margin-top: 5px;
     background-color: #2B4C5D;
-    color: #f2f2f2;
+    color: #C0732F;
+    cursor: pointer;
 }
