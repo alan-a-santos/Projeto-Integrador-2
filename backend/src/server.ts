@@ -2,7 +2,7 @@ import fastify from "fastify";
 import { routes } from "./routes";
 import cors from "@fastify/cors";
 
-export const server = fastify({ logger: false})
+export const server = fastify({ logger: true})
 
 server.register(cors, {
     origin: '*'  // Permitir todas as origens. Ajuste conforme necessário.
