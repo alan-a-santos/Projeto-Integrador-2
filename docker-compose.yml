@@ -8,6 +8,7 @@ services:
       - "8080:8080"
     environment:
       - NODE_ENV=production
+      - PORT=8080
     env_file: 
      - backend/.env  # Mova esta linha para o nível do serviço
     depends_on:
