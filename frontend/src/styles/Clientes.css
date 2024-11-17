@@ -395,11 +395,21 @@ Exclusão de Clientes
  
 }
 .success-message{
-    margin-left: 3%;
+    margin-left: 4%;
     margin-top: -5vh;
-    font-size: 6vh;
+    font-size: 3vh;
+    color: #C0732F;
+}
+.success-message1{
+    margin-left: 4%;
+    margin-top: 0vh;
+    font-size: 3vh;
     color: #C0732F;
 }
 #msg{
     display: flex;
+}
+.final {
+    display: flex;
+    flex-direction: row;
 }

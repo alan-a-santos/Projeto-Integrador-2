@@ -16,15 +16,14 @@ exports.server = void 0;
 const fastify_1 = __importDefault(require("fastify"));
 const routes_1 = require("./routes");
 const cors_1 = __importDefault(require("@fastify/cors"));
-exports.server = (0, fastify_1.default)({ logger: true });
+exports.server = (0, fastify_1.default)({ logger: false });
 exports.server.register(cors_1.default, {
     origin: '*' // Permitir todas as origens. Ajuste conforme necessário.
 });
 exports.server.register(routes_1.routes);
 const start = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const port = Number(process.env.PORT) || 80;
-        yield exports.server.listen({ port, host: '0.0.0.0' });
+        yield exports.server.listen({ port: 3001, host: '0.0.0.0' });
         console.log('Servidor Conectado');
     }
     catch (err) {

@@ -9,6 +9,7 @@ import { lista_ofertas } from "./lista_ofertas"
 import { lista_pedidos } from "./lista_pedidos"
 import { lista_porcoes } from "./lista_pratos"
 import { lista_situacao } from "./lista_situacao"
+import { nomes_devedores } from "./nomes_devedores"
 import { pedido_informacao_cliente } from "./pedido_informacao_cliente"
 import { pgto_total } from "./pgto_total"
 
@@ -27,4 +28,5 @@ export const servicos_diversos_routes = async() => {
     server.register(lista_devedores)
     server.register(lista_pedidos)
     server.register(pgto_total)
+    server.register(nomes_devedores)
 }

@@ -192,6 +192,7 @@ function Cadastro_clientes() {
               id="input6_1"
               ref={cadastroref}
               readOnly
+              disabled
             />
           </div>
         </fieldset>
@@ -235,6 +236,7 @@ function Cadastro_clientes() {
               id="input8"
               ref={ruaref}
               readOnly
+              disabled
             />
             <input type="text" className="inputs" id="input9" ref={numeroref} />
             <input
@@ -249,6 +251,7 @@ function Cadastro_clientes() {
               id="input11"
               ref={bairroref}
               readOnly
+              disabled
             />
             <input
               type="text"
@@ -256,6 +259,7 @@ function Cadastro_clientes() {
               id="input12"
               ref={cidaderef}
               readOnly
+              disabled
             />
           </div>
         </fieldset>

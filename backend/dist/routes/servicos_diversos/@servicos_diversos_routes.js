@@ -20,6 +20,7 @@ const lista_ofertas_1 = require("./lista_ofertas");
 const lista_pedidos_1 = require("./lista_pedidos");
 const lista_pratos_1 = require("./lista_pratos");
 const lista_situacao_1 = require("./lista_situacao");
+const nomes_devedores_1 = require("./nomes_devedores");
 const pedido_informacao_cliente_1 = require("./pedido_informacao_cliente");
 const pgto_total_1 = require("./pgto_total");
 const servicos_diversos_routes = () => __awaiter(void 0, void 0, void 0, function* () {
@@ -34,5 +35,6 @@ const servicos_diversos_routes = () => __awaiter(void 0, void 0, void 0, functio
     server_1.server.register(lista_devedores_1.lista_devedores);
     server_1.server.register(lista_pedidos_1.lista_pedidos);
     server_1.server.register(pgto_total_1.pgto_total);
+    server_1.server.register(nomes_devedores_1.nomes_devedores);
 });
 exports.servicos_diversos_routes = servicos_diversos_routes;

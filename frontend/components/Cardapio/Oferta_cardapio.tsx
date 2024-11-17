@@ -93,10 +93,11 @@ function Oferta_cardapio() {
         <fieldset className="principal_cardapio">
           <legend className="labels" id="legenda"></legend>
           <div className="labels1">
+            <label htmlFor="" className="labels" id="label0">Segmento</label>
             <label htmlFor="" className="labels" id="label1">
               Categoria
             </label>
-            <label htmlFor="" className="labels" id="label2">
+            <label htmlFor="" className="labels" id="label2-1">
               Descrição
             </label>
           </div>

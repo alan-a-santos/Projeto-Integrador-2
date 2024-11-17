@@ -19,6 +19,7 @@
     margin-left: 8px;
     font-size: 1.9vh; 
     margin-top: -3vh;
+    cursor: pointer;
 }
 .lateral_principal{
     display: block;

@@ -113,6 +113,7 @@ function Atualiza_cliente() {
         setTimeout(() => {
           setSuccessMessage(null);
         }, 3000);
+  
       }
     }
   };
@@ -300,12 +301,11 @@ function Atualiza_cliente() {
         value={clienteInfo?.observacao || ""}
         onChange={handleInputChange}
       ></textarea>
-      <button className="inputs" id="botao_cad1" onClick={atualizarCliente}>
-        Atualizar
-      </button>
-      {successMessage && (
-        <div className="success-message">{successMessage}</div>
-      )}
+      
+      <button className="inputs" id="botao_cad1" onClick={atualizarCliente}>Atualizar</button>
+      <div className="final">
+      {successMessage && (<div className="success-message">{successMessage}</div> )}
+      </div>
     </div>
   );
 }

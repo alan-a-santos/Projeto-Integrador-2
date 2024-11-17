@@ -26,6 +26,7 @@ function Consulta_cliente() {
   const [clientes, setClientes] = useState<Clientes_Props[]>([]);
   const [selectedCliente, setSelectedCliente] = useState<string>("");
   const [clienteInfo, setClienteInfo] = useState<Clientes_Props | null>(null);
+  const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
   useEffect(() => {
     nomes_clientes();
@@ -82,7 +83,10 @@ function Consulta_cliente() {
           }
         );
         setClienteInfo(response.data[0]); // Atualiza o estado com os dados completos do cliente
-        console.log("Dados do cliente recebidos:", response.data);
+        setSuccessMessage("Consulta realizada com sucesso!");
+        setTimeout(() => {
+          setSuccessMessage(null);
+        }, 3000);
       } catch (error) {
         console.error("Erro ao buscar informações do cliente:", error);
       }
@@ -265,6 +269,9 @@ function Consulta_cliente() {
         value={clienteInfo?.observacao || ""}
         readOnly
       ></textarea>
+      {successMessage && (
+            <div className="success-message1">{successMessage}</div>
+          )}
     </div>
   );
 }

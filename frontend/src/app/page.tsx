@@ -21,7 +21,7 @@ async function logar(event: FormEvent){
   // usuario:  usuarioref.current?.value
   // senha: senharef.current?.value
 
-  if (!usuarioref.current?.value) return
+  if (!usuarioref.current?.value) return(alert("Necessário Informar um Usuário"))
 
   const response = await server.post('/login', {
       usuario: usuarioref.current?.value,

@@ -21,13 +21,17 @@ function Receber_financeiro() {
   const [clienteid, setclienteid] = useState<string>("");
 
   useEffect(() => {
-    nomes_clientes();
+    nomes_devedores();
   }, []);
 
-  async function nomes_clientes() {
+  async function nomes_devedores() {
     try {
-      const response = await server.get("/servicos_diversos/lista_clientes");
+      // const response = await server.get("/servicos_diversos/lista_clientes");
+      const response = await server.post("/servicos_diversos/nomes_devedores", {
+        situacao: "a pagar",
+      });
       setclientes(response.data);
+
     } catch  {
       console.error("Erro ao buscar clientes:");
     }
@@ -68,7 +72,7 @@ function Receber_financeiro() {
     const clienteId = event.target.value;
     setSelectedCliente(clienteId);
     setclienteid(clienteId);
-
+    
     try {
       const response = await server.post("/servicos_diversos/lista_devedores", {
         id_cliente: clienteId,

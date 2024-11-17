@@ -13,6 +13,7 @@
     border-left: none;
     border-right: none;
     color: #C0732F;
+    border-color: #2B4C5D;
     
 }  
 #acesso{
@@ -36,6 +37,9 @@
     font-weight: bold;
     margin-top: 5px;
     background-color: #2B4C5D;
-    color: #C0732F;
+    color: white;
     cursor: pointer;
+}
+#btentrar:hover{
+    color: #C0732F;
 }
