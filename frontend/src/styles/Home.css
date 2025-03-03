@@ -71,9 +71,14 @@ margin-top: 6vh;
 #ltotal{
     font-size: 4vh;
 }
+#tot{
+    font-size: 10vh;
+    margin-left: 6vw;
+    margin-top: 20vh;
+}
 #total{
     font-size: 10vh;
-    margin-left: 4vw;
+    margin-left: 6vw;
 }
 #lmarmita{
     font-size: 4vh;
@@ -98,7 +103,7 @@ margin-top: 6vh;
     color: #C0732F;
     font-weight: bold;
     margin-left: 2.5vw;
-   margin-left: 2vw;
+ 
 }
 #leg2{
     text-align: end;

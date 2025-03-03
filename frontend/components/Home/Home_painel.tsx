@@ -73,7 +73,7 @@ function Home_painel() {
           <section className="home1_1">
             <fieldset className="home1_1_1">
               <legend className="labels" id="leg1">
-                Clientes Cadastrados
+                Clientes Ativos
               </legend>
               <section className="div1">
                 {/* <fieldset className='field1'>
@@ -85,9 +85,9 @@ function Home_painel() {
 
               <section className="div1">
                 <fieldset className="field2">
-                  <legend id="leg1_1">Total</legend>
+                  <legend id="leg1_1">Quantidade</legend>
                   <br />
-                  <label htmlFor="" id="total">
+                  <label htmlFor="" id="tot">
                     {clientes.length}
                   </label>
                 </fieldset>

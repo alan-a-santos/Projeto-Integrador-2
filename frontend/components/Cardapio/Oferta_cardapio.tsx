@@ -13,7 +13,7 @@ function Oferta_cardapio() {
   const [prato, setprato] = useState("");
   const [categoria, setcategoria] = useState("");
   const [segmento, setsegmento] = useState("");
-  
+  // const[pratos, setpratos] = useState("")
   const [descricoes, setDescricoes] = useState<string[]>([]);
   const [valor, setvalor] = useState("");
   const [resposta, setResposta] = useState<{ mensagem: string } | null>(null);
@@ -76,8 +76,16 @@ function Oferta_cardapio() {
     } catch (error) {
       console.error("Erro ao atualizar os dados:", error);
     }
+    
+      try {
+        const response = await server.get("/servicos_diversos/lista_ofertas");
+      console.log(response.data)
+      } catch (error) {
+        console.error("Erro ao buscar clientes:", error);
+      }
   }
 
+   
   function limparCampos() {
     setcategoria("");
     setvalor("");
@@ -165,7 +173,10 @@ function Oferta_cardapio() {
             Ofertar
           </button>
         </div>
-
+        <div className="resumo">
+          <label htmlFor="" className="labels" id="lbresumo">Pratos do Dia</label>
+              <textarea name="" id="resumo" className="inputs"></textarea>
+            </div>
         {resposta && <p className="success-message">{resposta.mensagem}</p>}
       </div>
     </>

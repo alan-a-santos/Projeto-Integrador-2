@@ -128,3 +128,15 @@
 #label2-1{
     margin-left: 8.5vw;
 }
+.resumo{
+    display: flex;
+}
+#resumo{
+    margin-left: -5.5vw;
+    margin-top: 3vh;
+    width: 35vw;
+    height: 15vh;
+}
+#lbresumo{
+    margin-left: 4vw;
+}

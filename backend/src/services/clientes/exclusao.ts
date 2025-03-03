@@ -3,24 +3,25 @@ import { ResultSetHeader } from "mysql2";
 
 class exclusao_clientes {
     async execute(id: number) {
-        const queryDeleteEndereco = 'DELETE FROM endereco WHERE id_cliente = ?';
-        const queryDeleteContato = 'DELETE FROM contatos WHERE id_cliente = ?';
-        const queryDeleteCliente = 'DELETE FROM clientes WHERE id = ?';
-
+        // const queryDeleteEndereco = 'DELETE FROM endereco WHERE id_cliente = ?';
+        // const queryDeleteContato = 'DELETE FROM contatos WHERE id_cliente = ?';
+        //const queryDeleteCliente = 'DELETE FROM clientes WHERE id = ?';
+        const query = 'UPDATE clientes SET status = "INATIVO" WHERE id = ?';
         const conn = await conexao.getConnection();
 
         try {
-            // Inicia uma transação
-            await conn.beginTransaction();
+            // // Inicia uma transação
+            // await conn.beginTransaction();
 
-            // Exclui o endereço do cliente
-            await conn.execute<ResultSetHeader>(queryDeleteEndereco, [id]);
+            // // Exclui o endereço do cliente
+            // await conn.execute<ResultSetHeader>(queryDeleteEndereco, [id]);
 
-            // Exclui o contato do cliente (se houver)
-            await conn.execute<ResultSetHeader>(queryDeleteContato, [id]);
+            // // Exclui o contato do cliente (se houver)
+            // await conn.execute<ResultSetHeader>(queryDeleteContato, [id]);
 
-            // Exclui o cliente
-            const [resultado] = await conn.execute<ResultSetHeader>(queryDeleteCliente, [id]);
+            // // Exclui o cliente
+            const [resultado] = await conn.execute<ResultSetHeader>(query, [id]);
+            
 
             // Confirma a transação
             await conn.commit();
